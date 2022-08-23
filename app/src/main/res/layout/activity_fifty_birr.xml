@@ -7,7 +7,6 @@
         android:layout_height="match_parent"
         android:padding="10dp"
         tools:context=".FiftyBirr">
-
     <TextView
         android:id="@+id/fiftyWelcome"
         android:layout_width="wrap_content"
