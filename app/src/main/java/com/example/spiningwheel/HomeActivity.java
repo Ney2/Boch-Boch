@@ -29,12 +29,12 @@ public class HomeActivity extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
           if(position==0) {
               Intent intent = new Intent(getApplicationContext(), FiftyBirr.class);
-              DB.playgame(intent.getStringExtra("username"), "50");
+              DB.playGame(intent.getStringExtra("username"), "50");
               startActivity(intent);
           }
           else{
             Intent intent = new Intent(getApplicationContext(), HundredBirr.class);
-              DB.playgame(intent.getStringExtra("username"), "100");
+              DB.playGame(intent.getStringExtra("username"), "100");
             startActivity(intent);
           }
         }

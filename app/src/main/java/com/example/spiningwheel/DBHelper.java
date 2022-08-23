@@ -37,7 +37,7 @@ public class DBHelper extends SQLiteOpenHelper{
             return true;
     }
 
-    public Boolean playgame(String username, String amount) {
+    public Boolean playGame(String username, String amount) {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("username", username);
